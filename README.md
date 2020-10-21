@@ -1,2 +1,16 @@
-# runbuddy
-ucf bootcamp project
+# Run Buddy
+
+## Purpose
+A website that offers fitness training services.
+
+## Built With
+* HTML
+* CSS
+
+## Website
+https://jconeff.github.io/runbuddy/
+
+## Contribution
+Made with ❤️ by Jessica Coneff
+
+### ©️2020 Run Buddy, Inc 
