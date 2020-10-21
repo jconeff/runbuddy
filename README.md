@@ -12,3 +12,5 @@ https://jconeff.github.io/runbuddy/
 
 ## Contribution
 Made with ❤️ by Jessica Coneff
+
+### ©️2020 Run Buddy, Inc 
