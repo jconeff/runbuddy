@@ -39,7 +39,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-  }
+}
 
 header nav ul {
     display: flex;
@@ -266,6 +266,53 @@ footer a {
 .trainer-bio p {
     font-size: 17px;
 }
+/* SERVICE STYLES BEGIN */
+.services {
+    background: #fce138;
+}
+.service-grid-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.service-grid-container {
+    background: lightyellow;
+    width: 80%;
+    display: grid;
+    /* repeat(iterator, size) */
+    grid-template-columns: 1fr repeat(2, 4fr);
+    grid-template-rows: repeat(5, 1fr) 2fr;
+    border: 2px solid #024e76;
+    color:  #024e76;
+    font-size: 1.2rem;
+
+}
+.service-grid-item {
+    padding: 15px 0;
+    border: 2px solid #024e76;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* specific match */
+.service-grid-item.basic {
+    grid-column: 2 / span 1;
+}
+.service-grid-item.both {
+    grid-column: 2 / span 2;
+}
+.service-grid-item.cancel {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    grid-column: 1;
+    grid-row: 1 / -1;
+}
+.grid-head, .grid-price, .service-grid-item.cancel {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 
 /* REACH OUT STYLES START */
 .contact {
@@ -347,7 +394,7 @@ footer a {
 section {
     padding: 60px;
 }
-
+/*MEDIA*/
 @media screen and (max-width: 980px) {
     header{
         padding-bottom: 0;
@@ -447,5 +494,26 @@ section {
 
     .contact-form {
         order: 3;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .service-grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .service-grid-item.basic {
+        grid-column: 1;
+    }
+
+    .service-grid-item.both {
+        grid-column: 1 / -1;
+    }
+
+    .service-grid-item.cancel {
+        transform: none;
+        writing-mode: unset;
+        grid-column: 1 / -1;
+        grid-row: -1;
     }
 }
