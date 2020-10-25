@@ -266,7 +266,17 @@ footer a {
 .trainer-bio p {
     font-size: 17px;
 }
-
+/*service grid*/
+.service-grid-container {
+    display: grid;
+}
+.service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+}
 /* REACH OUT STYLES START */
 .contact {
     background: #024e76;
@@ -347,7 +357,7 @@ footer a {
 section {
     padding: 60px;
 }
-
+/*MEDIA*/
 @media screen and (max-width: 980px) {
     header{
         padding-bottom: 0;
