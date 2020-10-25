@@ -1,4 +1,4 @@
-# Run Buddy Inc.
+# Run Buddy
 
 ## Purpose
 A website that offers fitness training services.
@@ -12,3 +12,5 @@ https://jconeff.github.io/runbuddy/
 
 ## Contribution
 Made with ❤️ by Jessica Coneff
+
+### ©️2020 Run Buddy, Inc 
